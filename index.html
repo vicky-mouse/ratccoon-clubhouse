@@ -13,29 +13,72 @@
     /* NeuroX header 1 font */
     @font-face {
       font-family: NeuroX;
-      src: url(NeuroX.ttf);}
+      src: url(fonts/NeuroX.ttf);}
     /* Oddlini header 2 font */
     @font-face {
       font-family: Oddlini;
-      src: url(oddlini-extra-bold.ttf);}
+      src: url(fonts/oddlini-extra-bold.ttf);}
     /* High Empathy disaply font */
     @font-face {
       font-family: HighEmpathy;
-      src: url(HighEmpathy.ttf);}
+      src: url(fonts/HighEmpathy.ttf);}
     
+    
+    /* navbar */
+    .topnav nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;}
+    .topnav ul{
+      list-style-type: none;
+      display: flex;
+      margin: 0;
+      padding: 0;}
+    .topnav li{
+      padding-left: 60px;}
+    .topnav a {
+      font-family: Oddlini;
+      float: left;
+      color: #320809;
+      text-decoration: none;
+      font-size: 20px;}
+    .topnav a:hover {
+      -webkit-text-stroke: 1px #320809;
+      paint-order: fill stroke;
+      color: transparent;}
+    .topnav a.active {
+      color: #A9C146}
+    
+      
     html {
       width: 1440px; 
       margin: 0 auto;
+      background-color: #FFFAE7;
     }
     
     body {
       width: 1200px;
-      background-color: gray;
-      height: 100px;
     }
   </style>
   </head>
+
+  
+  
+  
+  
+  
   <body>
-    blah blah blah
+    
+    <div class="topnav">
+      <nav><a href="index.html"><img src="assets/headerLogo.svg"></a><ul>
+        <li><a class="active" href="index.html">home</a></li>
+        <li><a href="toybox.html">toybox</a></li>
+        <li><a href="flix.html">flix</a></li>
+        <li><a href="nest.html">nest</a></li>
+        </ul></nav>
+    </div>
+    
+    
+    
   </body>
 </html>
