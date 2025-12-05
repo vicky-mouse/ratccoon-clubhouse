@@ -50,11 +50,10 @@
       p {
         font-family: Sansation;
         font-size: 20px;
-        color: #320809;
-      }
+        color: #320809;}
       
       a {
-        text-decoration: none;
+        color: #320809;
       }
     
     
@@ -108,8 +107,9 @@
       width: 230px;
       height: 260px;
       }
-    .overviewText {
-      margin-top: -30px;}
+    .overviewText a {
+      margin-top: -30px;
+      text-decoration: none;}
     
     
      /* hero nav*/
@@ -134,7 +134,7 @@
       .endBG {
         position: relative;
         z-index: -2;
-        left: -120px;
+        left: -180px;
       }
       
       /* footer */
@@ -145,20 +145,24 @@
         z-index: 1;
         padding: 50px;
         
+        display: flex;
+        flex-direction: row;
+        
         height: 500px;
-        display: block;
-        gap: 20px;
+        gap: 120px;
         margin-bottom: -1000px;
       }
       
       .footerChild1 {
       width: 355px;
       height: 410px;
-      display: inline;
+      display: flex;
       justify-content: space-between;
+      flex-direction: column;
       }
       .footerChild2 {
-      width: 285;
+      margin-top: -18px;
+      text-justify: top;
       }
       
   
@@ -202,7 +206,7 @@
     </div>
     
     
-    <div class="overviewContainer">
+    <div class="overviewContainer" >
       <div class="overviewCard">
         <a href="index.html"><img src="index/homeThumbnail.svg"></a>
         <div class="overviewText"><a href="index.html"><h3>home ・:〃➜</h3></a></div>
@@ -240,13 +244,22 @@
     <div class="footer">
       <div class="footerChild1">
         <img src="index/footerLogo.svg">
-        <p>© 2025 Ratccoon Clubhouse</p>
+        <p style="margin-bottom: -3px;">© 2025 Ratccoon Clubhouse</p>
+      </div>
+      
+      <div class="footerChild2">
+        <p style="font-size: 16px;"><b>Professional</b> <br><br><br>
+          <a href="mailto:vickynguyen0106@gmail.com">vickynguyen0106@gmail.com</a><br><br>
+          Linkedin: <a href="https://www.linkedin.com/in/vickynguyen16/">vickynguyen16<br><br>
+          Github: <a href="https://github.com/vicky-mouse">vicky mouse<br><br>
+          Portfolio: <a href="https://vickymouseclubhouse.framer.website/">View Here</p>
       </div>
       <div class="footerChild2">
-        
-      </div>
-      <div class="footerChild2">
-        
+        <p style="font-size: 16px;"><b>Social</b> <br><br><br>
+          <a href="mailto:mousseratccoons@gmail.com">mousseratccoons@gmail.com</a><br><br>
+          Twitter: <a href="https://x.com/mousseratccoons">mousseratccoons</a><br><br>
+          itch.io: <a href="https://ratccoons.itch.io/">ratccoons</a><br><br>
+          Instagram: <a href="https://www.instagram.com/saltyratccoons/?hl=en">saltyratccoons</a></p>
       </div>
     </div>
     
