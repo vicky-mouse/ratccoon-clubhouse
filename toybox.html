@@ -94,13 +94,63 @@
         text-align: left;
       }
     
+    
     /* designing */
       .designing {
         gap: 20px;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
       }
       .designingGrid {
         display: grid;
         grid-template-columns: auto auto auto;
+      }
+      .designing p{
+        margin-top: 100px;
+        color: #14B6C7;
+        text-align: right;
+        color: white;
+      }
+      .designing a{
+        color: #14B6C7;
+        color: white;
+      }
+    
+    
+    /* doodling */
+      .doodling {
+        gap: 20px;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+      }
+      .doodlingGrid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+      }
+      .doodling p{
+        margin-top: 100px;
+        background-color: #FFFAE7;
+        width: 325px;
+        height: 25px;
+        text-align: right;
+      }
+    
+    
+    /* carousel */
+    .carousel {
+      overflow: hidden;
+      }
+    .wrap {
+      display: grid;
+      grid-auto-flow: column; grid-auto-columns: 250px;
+      justify-items: stretch;
+      animation: slide 15s linear infinite;
+      }
+
+    @keyframes slide {
+      to {translate: calc(-4 * 250px);}
       }
     
     
@@ -170,11 +220,24 @@
       <p>[ isn't it lovely to have a hobby or two? ⋆｡˚☁︎˚｡⋆｡ ]</p>
     </div>
     
-    
     <!-- designing -->
     <div class="designing">
+      <h3>designing !? .˚⚘ ˚｡⸝</h3>
+      <p highlight>you have unlocked my secret design account: <a href="https://www.instagram.com/intheclubhouse/?hl=en">@intheclubhouse</a></p>
+      <div class="carousel">
+        <a href="index.html"><img src="assets/headerLogo.svg"></a>
+        <a href="index.html"><img src="assets/headerLogo.svg"></a>
+        <a href="index.html"><img src="assets/headerLogo.svg"></a>
+      </div>
+      
+    </div>
+    
+    
+    <!-- doodling -->
+    <div class="doodling">
       <h3>doodling  ｡⸝★⸝ ˎˊ˗</h3>
-      <div class="designingGrid">
+      <p highlight>i have twitter!! <a href="https://x.com/mousseratccoons">@mousseratccoons</a>!!</p>
+      <div class="doodlingGrid">
       </div>
       
     </div>
