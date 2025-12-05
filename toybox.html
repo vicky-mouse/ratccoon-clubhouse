@@ -44,8 +44,8 @@
       
       h3 {
         font-family: Oddlini;
-        font-size: 32px;
-        color: #A9C146;}
+        font-size: 64px;
+        color: #FFFAE7;}
       
       p {
         font-family: Sansation;
@@ -54,7 +54,7 @@
       }
       
       a {
-        text-decoration: none;
+        color: #320809;
       }
     
     
@@ -94,11 +94,49 @@
         text-align: left;
       }
     
+    /* designing */
+      .designing {
+        gap: 20px;
+      }
+      .designingGrid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+      }
+    
+    
+    /* footer */
+      .footer {
+        border-radius: 20px;
+        background-image: url("assets/footerBG.svg");
+        background-repeat: no-repeat;
+        z-index: 1;
+        padding: 50px;
+        
+        display: flex;
+        flex-direction: row;
+        
+        height: 500px;
+        gap: 120px;
+        margin-bottom: -1090px;
+      }
+      .footerChild1 {
+        width: 355px;
+        height: 410px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+      }
+      .footerChild2 {
+        margin-top: -18px;
+        text-justify: top;
+      }
+    
       
     html {
       width: 1440px; 
       margin: auto;
       background-color: #FFFAE7;
+      background-color: #14B6C7;
     }
     
     body {
@@ -114,7 +152,7 @@
   
   
   <body>
-    
+    <!-- navbar -->
     <div class="topnav">
       <nav><a href="index.html"><img src="assets/headerLogo.svg"></a><ul>
         <li><a href="index.html">home</a></li>
@@ -125,11 +163,49 @@
     </div>
     
     
+    <!-- intro -->
     <div class="intro">
       <h1>TOYBOX</h1>
       <h2>toybox</h2>
-      <p>[ isn't it lovely to have a hobby or two? ]</p>
+      <p>[ isn't it lovely to have a hobby or two? ⋆｡˚☁︎˚｡⋆｡ ]</p>
     </div>
+    
+    
+    <!-- designing -->
+    <div class="designing">
+      <h3>doodling  ｡⸝★⸝ ˎˊ˗</h3>
+      <div class="designingGrid">
+      </div>
+      
+    </div>
+    
+    
+    
+    <!-- footer card -->
+    <div class="footer">
+      <div class="footerChild1">
+        <img src="assets/footerLogo.svg">
+        <p style="margin-bottom: -3px;">© 2025 Ratccoon Clubhouse</p>
+      </div>
+      
+      <div class="footerChild2">
+        <p style="font-size: 16px;"><b>Professional</b> <br><br><br>
+          <a href="mailto:vickynguyen0106@gmail.com">vickynguyen0106@gmail.com</a><br><br>
+          Linkedin: <a href="https://www.linkedin.com/in/vickynguyen16/">vickynguyen16</a><br><br>
+          Github: <a href="https://github.com/vicky-mouse">vicky mouse </a><br><br>
+          Portfolio: <a href="https://vickymouseclubhouse.framer.website/">View Here</a></p>
+      </div>
+      <div class="footerChild2">
+        <p style="font-size: 16px;"><b>Social</b> <br><br><br>
+          <a href="mailto:mousseratccoons@gmail.com">mousseratccoons@gmail.com</a><br><br>
+          Twitter: <a href="https://x.com/mousseratccoons">mousseratccoons</a><br><br>
+          itch.io: <a href="https://ratccoons.itch.io/">ratccoons</a><br><br>
+          Instagram: <a href="https://www.instagram.com/saltyratccoons/?hl=en">saltyratccoons</a></p>
+      </div>
+    </div>
+    
+    
+    <!-- footer decor -->
     
     
     
