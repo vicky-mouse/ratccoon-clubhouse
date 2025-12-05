@@ -24,11 +24,25 @@
       src: url(fonts/HighEmpathy.ttf);}
     
     
+    /* typography */
+      h1 {
+        font-family: NeuroX;
+        font-size: 400px;
+        color: 320809;
+        z-index: -1;}
+      
+      h2 {
+        font-family: HighEmpathy;
+        font-size: 223.57px;
+        color: A9C146;}
+    
+    
     /* navbar */
     .topnav nav{
       display: flex;
       align-items: center;
-      justify-content: space-between;}
+      justify-content: space-between;
+      padding-bottom: 122px;}
     .topnav ul{
       list-style-type: none;
       display: flex;
@@ -43,11 +57,21 @@
       text-decoration: none;
       font-size: 20px;}
     .topnav a:hover {
-      paint-order: fill stroke;
+      paint-order: stroke fill;
       -webkit-text-stroke: 1px #320809;
+      -webkit-background-clip: text;
       color: transparent;}
     .topnav a.active {
       color: #A9C146}
+    
+    
+    /* landing splash */
+    .landing {
+      height: 425px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: dodgerblue;}
     
     
     /* overview nav*/
@@ -72,12 +96,13 @@
       
     html {
       width: 1440px; 
-      margin: 0 auto;
+      margin: auto;
       background-color: #FFFAE7;
     }
     
     body {
       width: 1200px;
+      margin: auto;
     }
   </style>
   </head>
@@ -96,6 +121,11 @@
         <li><a href="flix.html">flix</a></li>
         <li><a href="nest.html">nest</a></li>
         </ul></nav>
+    </div>
+    
+    <div class="landing">
+      <h1>RATCCOON</h1><br>
+      <h2>clubhouse</h2>
     </div>
     
     <div class="overviewContainer">
