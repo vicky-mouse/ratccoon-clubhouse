@@ -52,6 +52,10 @@
         font-size: 20px;
         color: #320809;
       }
+      
+      a {
+        text-decoration: none;
+      }
     
     
     /* navbar */
@@ -86,7 +90,7 @@
     /* intro */
       .intro {
         height: 425px;
-        padding-bottom: 200px;
+        padding-bottom: 120px;
         display: block;
         text-align: center;
       }
@@ -96,7 +100,8 @@
     .overviewContainer {
       display: flex;
       justify-content: space-between;
-      align-content: center;}
+      align-content: center;
+      margin-bottom: 120px;}
       
     .overviewCard {
       border-radius: 10px;
@@ -105,7 +110,32 @@
       }
     .overviewText {
       margin-top: -30px;}
+    
+    
+     /* hero nav*/
+      .hero {
+        border-radius: 10px;
+        height: 500px;
+        background-color: green;
+        margin-bottom: 80px;
+      }
       
+      
+      /* about me*/
+      .about {
+        display: flex;
+        gap: 150px;
+        text-align: justify;
+        margin-bottom: 120px;
+      }
+      
+      
+      /* end card */
+      .endBG {
+        width: 1440px;
+        background-size: 100% auto;
+        z-index: -1;
+      }
     
     
       
@@ -148,25 +178,45 @@
     
     <div class="overviewContainer">
       <div class="overviewCard">
-        <img src="index/homeThumbnail.svg">
-        <div class="overviewText"><h3>home ・:〃➜</h3></div>
+        <a href="index.html"><img src="index/homeThumbnail.svg"></a>
+        <div class="overviewText"><a href="index.html"><h3>home ・:〃➜</h3></a></div>
       </div>
       <div class="overviewCard">
-        <img src="index/toyboxThumbnail.svg">
-        <div class="overviewText"><h3>toybox ・:〃➜</h3></div>
+        <a href="toybox.html"><img src="index/toyboxThumbnail.svg"></a>
+        <div class="overviewText"><a href="toybx.html"><h3>toybox ・:〃➜</h3></a></div>
       </div>
       <div class="overviewCard">
-        <img src="index/flixThumbnail.svg">
-        <div class="overviewText"><h3>flix ・:〃➜</h3></div>
+        <a href="flix.html"><img src="index/flixThumbnail.svg"></a>
+        <div class="overviewText"><a href="flix.html"><h3>flix ・:〃➜</h3></a></div>
       </div>
 
       <div class="overviewCard">
-        <img src="index/digestThumbnail.svg">
-        <div class="overviewText"><h3>digest・:〃➜</h3></div>
+        <a href="nest.html"><img src="index/digestThumbnail.svg"></a>
+        <div class="overviewText"><a href="digest.html"><h3>digest・:〃➜</h3></a></div>
       </div>
     </div>
     
     
+    <div class="hero">
+      
+    </div>
+    
+    <div class="about">
+      <p>[ about me ] <br><br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+        in voluptate velit esse. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+      <img src="index/catEmoticons.svg">
+    </div>
+    
+    
+    
     
   </body>
+  
+  <div class="end">
+      <img src="index/greenRect.svg">
+      </div>
 </html>
