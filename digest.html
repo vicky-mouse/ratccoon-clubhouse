@@ -45,7 +45,7 @@
       h3 {
         font-family: Oddlini;
         font-size: 64px;
-        color: #FFFAE7;}
+        color: #320809;}
       
       h4 {
         font-family: Sansation;
@@ -69,6 +69,8 @@
       
       img {
         border-radius: 10px;
+        width: 300px;
+        object-fit: cover
       }
     
     
@@ -113,18 +115,22 @@
     /* main */
     .main {
       gap: 20px;
+      border-radius: 10px;
       margin-bottom: 120px;
       width: 1200px;
       padding: 50px;
       background-color: #FFFAE7;
     }
     .mainRow {
-      display: grid;
-      grid-template-columns: 30% 60%;
-      justify-content: space-between;
+      display: flex;
+      gap: 50px;
+      margin-bottom: 20px;
+      width: 1200px;
     }
     .mainText {
-        gap: 5px;
+        display: block;
+        gap: -20px;
+        width: 1200px;
       }
     .main a{
       color: #14B6C7;
@@ -203,8 +209,34 @@
     <!-- main -->
     <div class="main">
       <div class="mainRow">
+        <img src="digest/flcl.gif">
+        <div class="mainText">
+          <h3>#1 - FLCL</h3>
+          <p>FLCL is my all time favourite anime!! The animation is
+          incredible as well as the metaphorical coming of age. Although
+          I don't think I'll ever rewatch it in fear of disliking it my
+          second watch or so.</p>
+        </div>
+      </div>
       
-    </div>
+      <div class="mainRow">
+        <img src="digest/lookBack.gif">
+        <div class="mainText">
+          <h3>#2 - Look Back</h3>
+          <p>Look back is an amazing show about how it feels to be an artist, or any 
+            sort of creator really! Super relatable.</p>
+        </div>
+      </div>
+      
+      <div class="mainRow">
+        <img src="digest/falseMemory.gif">
+        <div class="mainText">
+          <h3>#3 - False Memory</h3>
+          <p>Just an amazing show with crazy animation!!!</p>
+        </div>
+      </div>
+      
+      
     </div>
     
     
