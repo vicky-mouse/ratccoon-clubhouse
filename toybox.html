@@ -50,7 +50,7 @@
       h4 {
         font-family: Sansation;
         font-size: 32px;
-        margin-top: 100px;
+        margin-bottom: 160px;
         width: 500px;
         background-color: #FFFAE7;
         text-align: right;
@@ -109,7 +109,6 @@
       margin-bottom: 320px;
       }
     
-    
     /* designing */
     .designing {
       gap: 20px;
@@ -133,16 +132,14 @@
     
     /* doodling */
     .doodling {
-      gap: 20px;
       display: grid;
       grid-template-columns: auto auto;
       justify-content: space-between;
     }
     .doodlingContainer {
       margin-top: -120px;
-      display: grid;
-      grid-template-columns: auto auto;
-      padding-bottom: -120px;
+      display: flex;
+      margin-bottom: -120px;
     }
     .doodling p{
       margin-top: 80px;
@@ -150,6 +147,10 @@
       width: 325px;
       height: 45px;
       text-align: right;
+      color: #14B6C7;
+      }
+    .doodling a{
+      color: #14B6C7;
       }
     
     
@@ -168,6 +169,7 @@
       justify-content: right;
       width: 1200px;
       padding-bottom: 100px;
+      margin-top: -150px;
     }
     .wipGridRow {
       display: grid;
@@ -255,35 +257,18 @@
     /* BG decor */
     .littleGuys {
       position: absolute;
-      margin-top: 150px;
+      margin-top: 120px;
       margin-left: -20px;
       z-index: 1;
     }
-    .circleCat {
-      position: absolute;
-      margin-top: -4120px;
-      left: 1000px;
-      z-index: -1;
-    }
-    .flyingGuy {
-      position: absolute;
-      margin-top: -4800px;
-      left: 1000px;
-      z-index: -1;
-    }
-    .endBG {
-        position: absolute;
-        margin-top: -6600px;
-        margin-left: -9950px;
-        z-index: -3;
-      }
     
       
     html {
-      width: 1440px; 
-      margin: auto;
       background-color: #14B6C7;
-      overflow-x: hidden;
+      background-image: url("toybox/top.svg");
+      background-repeat: no-repeat;
+      background-attachment: relative;
+      background-position-x: -1250px;
       
     }
     
@@ -293,9 +278,6 @@
     }
   </style>
   </head>
-
-  
-  
   
   
   
@@ -325,25 +307,25 @@
       <p highlight>i have twitter!!
       <a href="https://x.com/mousseratccoons">@mousseratccoons</a>!!<br>
         check out my <a href="https://ratccoons.itch.io/">game jam art</a> too :D</p></div>
-      
-    <div class="doodlingContainer">
-        <div class="carousel">
-          <div class="wrap">
-            <div class="object"><img src="toybox/kris.png"></div>
-            <div class="object"><img src="toybox/lily.png"></div>
-            <div class="object"><img src="toybox/goFish.png"></div>
-            <div class="object"><img src="toybox/falseMemory.png"></div>
-            <div class="object"><img src="toybox/miku.png"></div>
+    
+      <div class="doodlingContainer">
+          <div class="carousel">
+            <div class="wrap">
+              <div class="object"><img src="toybox/kris.png"></div>
+              <div class="object"><img src="toybox/lily.png"></div>
+              <div class="object"><img src="toybox/goFish.png"></div>
+              <div class="object"><img src="toybox/falseMemory.png"></div>
+              <div class="object"><img src="toybox/miku.png"></div>
+            </div>
+            <div aria-hidden class="wrap">
+              <div class="object"><img src="toybox/kris.png"></div>
+              <div class="object"><img src="toybox/lily.png"></div>
+              <div class="object"><img src="toybox/goFish.png"></div>
+              <div class="object"><img src="toybox/falseMemory.png"></div>
+              <div class="object"><img src="toybox/miku.png"></div>
+            </div>
           </div>
-          <div aria-hidden class="wrap">
-            <div class="object"><img src="toybox/kris.png"></div>
-            <div class="object"><img src="toybox/lily.png"></div>
-            <div class="object"><img src="toybox/goFish.png"></div>
-            <div class="object"><img src="toybox/falseMemory.png"></div>
-            <div class="object"><img src="toybox/miku.png"></div>
-          </div>
-        </div>
-    </div>
+      </div>
     
     <div class="highlight2"><h4>screenshots always look cooler :^)</h4> </div>
     
@@ -373,7 +355,7 @@
     <!-- designing -->
     <div class="designing">
       <div class="designingContainer">
-      <h3>designing !? .˚⚘ ˚｡⸝</h3>
+      <h3 style="padding-top: 120px;">designing !? .˚⚘ ˚｡⸝</h3>
       <p>you have unlocked my secret design account:
         <a href="https://www.instagram.com/intheclubhouse/?hl=en">@intheclubhouse</a></p></div>
       
@@ -414,6 +396,7 @@
           </div>
         </div>
       
+      
       <div class="highlight"><h4>sometimes i dont finish my work :)</h4> </div>
       
       <div class="wipGrid">
@@ -426,8 +409,7 @@
           <img src="toybox/unfinished2.png">
         </div>
       </div>
-    </div>
-    
+      </div>
     
     <!-- footer card -->
     <div class="footer">
@@ -456,16 +438,6 @@
     <!-- footer decor -->
     <div class="littleGuys">
       <img src="toybox/littleGuys.svg">
-    </div>
-    <div class="circleCat">
-      <img src="toybox/circleCat.svg">
-    </div>
-    <div class="flyingGuy">
-      <img src="toybox/flyingGuy.svg">
-    </div>
-    
-     <div class="endBG">
-        <img src="toybox/bgRect.svg">
     </div>
     
   </body>
